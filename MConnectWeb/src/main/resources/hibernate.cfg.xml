@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+ 
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="com.acc.mconnect.entities.Category" />
+        <mapping class="com.acc.mconnect.entities.Favouritecategory" />
+        <mapping class="com.acc.mconnect.entities.Subcategory" />
+        <mapping class="com.acc.mconnect.entities.Tabdemouser" />
+        <mapping class="com.acc.mconnect.entities.Tabemployeecontribution" />
+        <mapping class="com.acc.mconnect.entities.Tabeventspicture" />
+        <mapping class="com.acc.mconnect.entities.Tabfromtheshow" />
+        <mapping class="com.acc.mconnect.entities.Tabinthenew" />
+        <mapping class="com.acc.mconnect.entities.Tabmediafile" />
+        <mapping class="com.acc.mconnect.entities.Tabperson" />
+         <mapping class="com.acc.mconnect.entities.Tabuser" />      
+        
+    </session-factory>
+	    
+</hibernate-configuration>

@@ -1,0 +1,25 @@
+
+body,table {
+	font-size: 12px;
+	font-family: arial, sans-serif;
+}
+.error {
+	color: #ff0000;
+}
+ 
+.errorblock {
+	color: #000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding: 8px;
+	margin: 16px;
+}
+#loginDiv{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 500px;
+    height: 100px;
+}​
